@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: right;
+    margin-right: 200px;
+    padding: 10px;
+    width: 10;
+    top: 10;
+    left: 10;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 20px;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.entry-content {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 25px
+}
+
+.entry-content2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: -50px;
+    padding: 0px;
+    font-size: 25px
+}
+
+.partner em {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: -20px;
+    padding: 0px;
+    font-size: 25;
+}
+
+.partner en {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    padding: 0px;
+    margin-top: 60px;
+}
+.viewbox-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 200px;
+    justify-items: center;
+
+    
+}
+.viewbox {
+    width: 500px;
+    height: 300px;
+    
+    background-color: #ece9e8;
+    color: black;
+    
+}
+.img-in-corner {
+    position: relative;
+    top: 500;
+    left: 250;
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .elementor-icon-box-description a {
+
+    text-decoration: none;       /* removes underline */
+    color: rgb(60, 66, 95);              /* default link color */
+    transition: color 0.3s ease; /* smooth hover effect */
+
+  }
+ 
+  .elementor-icon-box-description a:hover {
+    color: rgb(144, 74, 190);              /* color on hover */
+    text-decoration: underline;  /* optional: add underline on hover */
+  }
